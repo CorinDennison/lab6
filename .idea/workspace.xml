@@ -1,10 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="973dfb87-52db-448c-966c-e7a5a696eb0a" name="Default" comment="fix package name">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 6 Questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 6 Questions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_7_Write_Operating_System_Info_To_File_In_Data_Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_7_Write_Operating_System_Info_To_File_In_Data_Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_1_Write_Name_Color_Class_CodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_1_Write_Name_Color_Class_CodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_2_Write_Recycling_ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_2_Write_Recycling_ReportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_3_Read_Recycling_ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_3_Read_Recycling_ReportTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_4_Exception_Handling_QuestionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_4_Exception_Handling_QuestionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_5_Add_Exception_HandlingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_5_Add_Exception_HandlingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,9 +38,6 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Java_Auto_Grader_5_6_7" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,6 +149,10 @@
     </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -134,6 +161,8 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="\n&#9;ACTION&#9;ConvertToWindowsLineSeparators" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -174,19 +203,13 @@
       <recent name="$PROJECT_DIR$/src/main/java/week_5" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="JUnit.Question_1_Write_Name_Color_Class_CodeTest.testWriteToFile">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -249,7 +272,7 @@
       <setting name="rowsRange" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -263,8 +286,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="DEBUGGER_TYPE" value="Java" />
       <Java />
       <Profilers>
@@ -278,20 +299,19 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
       <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
       <option name="DEBUGGER_TYPE" value="Java" />
       <Java />
       <Profilers>
@@ -302,12 +322,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Question_7_Write_Operating_System_Info_To_File_In_Data_Directory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -362,6 +376,7 @@
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
       <setting name="launchBrowser" value="false" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
@@ -439,7 +454,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration default="true" type="JetRunConfigurationType">
       <module name="Java_Auto_Grader_5_6_7" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -452,7 +467,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
       <option name="vmParameters" />
       <option name="alternativeJrePath" />
@@ -566,6 +581,7 @@
       <workItem from="1568520386478" duration="769000" />
       <workItem from="1568826426865" duration="539000" />
       <workItem from="1569344692498" duration="409000" />
+      <workItem from="1601564550373" duration="1527000" />
     </task>
     <task id="LOCAL-00007" summary="Q5 underway">
       <created>1501797722091</created>
@@ -923,7 +939,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
@@ -933,13 +949,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -978,6 +993,12 @@
     <MESSAGE value="test directory and placeholder file" />
     <MESSAGE value="fix package name" />
     <option name="LAST_COMMIT_MESSAGE" value="fix package name" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="559" y="215" width="626" height="490" key="find.popup" timestamp="1601565427487">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="559" y="215" width="626" height="490" key="find.popup/0.23.1440.877@0.23.1440.877" timestamp="1601565427487" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

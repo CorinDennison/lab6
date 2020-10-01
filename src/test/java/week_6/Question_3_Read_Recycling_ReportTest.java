@@ -72,7 +72,7 @@ public class Question_3_Read_Recycling_ReportTest {
     }
 
     @Test(timeout=3000)
-    public void calculateMax() throws Exception {
+    public void calculateMax() {
 
         Question_3_Read_Recycling_Report q3 = new Question_3_Read_Recycling_Report();
 

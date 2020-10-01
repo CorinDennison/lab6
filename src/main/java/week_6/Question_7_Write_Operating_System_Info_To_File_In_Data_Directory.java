@@ -18,11 +18,12 @@ package week_6;
  
  Make sure you catch and handle any exceptions in the `writeOSName` method.
  
- Test your program on a Windows and a Mac/Linux computer. There are Macs and PCs in the hallway outside T.3050.
+ Test your program on computer with a different operating system to yours.
+ Try running your code at https://repl.it/languages/java10 - what OS does this use?
  
  **The long version**:
  
- All of the code so far has assumed that we are working with a file in the root directory of your project.
+ All the code so far has assumed that we are working with a file in the root directory of your project.
  But, a file could be anywhere on your system, so Java needs to support reading files anywhere on your
  computer (and even on remote computers).
  
@@ -32,26 +33,26 @@ package week_6;
  
  For this question, write a program that creates and stores a file in the data directory. The file should be called
  `os.txt` and should contain your computer's operating system name.
- 
- FileWriter can take a filename as an argument. The filename can only be a file in your current directory.
- So these don't work:
- 
- new FileWriter fw = new FileWriter(“data/testing.txt”);   // Mac or Linux / Error
- new FileWriter fw = new FileWriter(“data\testing.txt”);   // Windows \ Error
- 
- But, FileWriter can also take a File object as an argument, and a File object can store a path to a file
- elsewhere on your system (or even on a remote system).
- 
+
  Linux, Max, and Unix-based computers use / to separate path components, e.g. /Bob/Documents/homework1.doc
  Windows uses backslashes \ to separate path components, e.g. \Bob\Documents\homework1.doc
+
+ FileWriter can take a filename or path as an argument. The filename be a file in your current directory.
+ So these may work on one computer, but error on another:
  
+ new FileWriter fw = new FileWriter(“data/testing.txt”);   // Mac and Linux ok, PC Error
+ new FileWriter fw = new FileWriter(“data\testing.txt”);   // Windows OK, Mac and Linux Error
+ 
+ FileWriter can also take a File object as an argument, and a File object can store a path to a file
+ elsewhere on your system (or even on a remote system).
+
  Here’s one way to create a File object on a Mac, Linux, Unix etc. system; using / as a path separator, for example,
  
- File f = new File(“mydirectory/mysubdirectory/textfile.txt”);
+ File f = new File(“mydirectory/mysubdirectory/textfile.txt”);   // But error on PC
  
  Or on a PC, which uses backslash as the path separator, for example,
  
- File f = new File(“mydirectory\mysubdirectory\textfile.txt”);
+ File f = new File(“mydirectory\mysubdirectory\textfile.txt”);   // But error on Mac and Linux
  
  Assuming these directories exist, you can create and write `textfile.txt` file in this location.  The location
  is relative to the root directory of your project.
@@ -107,7 +108,7 @@ public class Question_7_Write_Operating_System_Info_To_File_In_Data_Directory {
         
         // Handle any exceptions in this method. Do not declare that this method throws any exceptions.
         
-        // Test your code on two types of operating systems: Windows, and Mac/Linux.
+        // If possible, test your code on two types of operating systems: Windows, and Mac/Linux.
         
     }
     

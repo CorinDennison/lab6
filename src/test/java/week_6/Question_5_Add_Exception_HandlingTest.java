@@ -37,12 +37,12 @@ public class Question_5_Add_Exception_HandlingTest {
     
             out = out.replace("\n", "");
             out = out.replace("\r", "");
-            assertTrue("printLanguageList should still print the same 3 languages in the same order.",
+            assertTrue("printLanguageList should still print the same 3 languages in the same order.\n" +
+                            "Don't print anything apart from the names of the languages from the list.",
                     out.contains("C#SwiftPython"));
     
             
         } catch (NoSuchElementException e) {
-        
             fail("Add try-catch statements to catch the exception thrown in printLanguageList");
         }
     
@@ -60,7 +60,7 @@ public class Question_5_Add_Exception_HandlingTest {
         
         String line = reader.readLine();
         
-        StringBuffer allLines = new StringBuffer();
+        StringBuilder allLines = new StringBuilder();
         
         boolean inMethod = false;
         

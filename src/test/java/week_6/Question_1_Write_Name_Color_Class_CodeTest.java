@@ -85,7 +85,7 @@ public class Question_1_Write_Name_Color_Class_CodeTest {
     @Test(timeout=3000)
     public void testUsesTryCatchBlocks() throws Exception {
 
-        // More accurately, check that the methods doesn't declare that they throw an exception.
+        // More accurately, check that the methods don't declare that they throw an exception.
         
         Class q1 = Class.forName("week_6.Question_1_Write_Name_Color_Class_Code");
         

@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 public class Question_2_Write_Recycling_ReportTest {
     
-    private File tempFileDirectory = new File("temporary_directory_for_test_files");
+    private final File tempFileDirectory = new File("temporary_directory_for_test_files");
     
     @Before()
     public void ensureTempDirectoryExists() {
@@ -63,7 +63,7 @@ public class Question_2_Write_Recycling_ReportTest {
 
         catch (IOException e) {
             e.printStackTrace();
-            fail("Exception thrown. Check for errors in ");
+            fail("Exception thrown. Check for errors in your code.");
         }
     }
 

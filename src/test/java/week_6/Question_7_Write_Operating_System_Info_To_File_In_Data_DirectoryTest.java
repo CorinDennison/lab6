@@ -20,9 +20,9 @@ public class Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTes
     @Test(timeout=3000)
     public void writeOSName()  {
         
-        Question_7_Write_Operating_System_Info_To_File_In_Data_Directory q8 = new Question_7_Write_Operating_System_Info_To_File_In_Data_Directory()  ;
+        Question_7_Write_Operating_System_Info_To_File_In_Data_Directory q7 = new Question_7_Write_Operating_System_Info_To_File_In_Data_Directory()  ;
         
-        q8.writeOSName();
+        q7.writeOSName();
         
         // Read file, verify contains correct OS name
         
@@ -46,7 +46,7 @@ public class Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTes
     @Test(timeout=3000)
     public void testUsesTryCatchBlocks() throws Exception {
         
-        // More accurately, check that the methods doesn't declare that they throw an exception.
+        // More accurately, check that the methods don't declare that they throw an exception.
         
         Class q1 = Class.forName("week_6.Question_7_Write_Operating_System_Info_To_File_In_Data_Directory");
         
