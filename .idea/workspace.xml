@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,16 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="973dfb87-52db-448c-966c-e7a5a696eb0a" name="Default" comment="fix package name">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab 6 Questions.md" beforeDir="false" afterPath="$PROJECT_DIR$/Lab 6 Questions.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_1_Write_Name_Color_Class_Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_1_Write_Name_Color_Class_Code.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_2_Write_Recycling_Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_2_Write_Recycling_Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_3_Read_Recycling_Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_3_Read_Recycling_Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_5_Add_Exception_Handling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_5_Add_Exception_Handling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_6_Fix_Code_No_Exception_Handling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_6_Fix_Code_No_Exception_Handling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_7_Write_Operating_System_Info_To_File_In_Data_Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_7_Write_Operating_System_Info_To_File_In_Data_Directory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_1_Write_Name_Color_Class_CodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_1_Write_Name_Color_Class_CodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_2_Write_Recycling_ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_2_Write_Recycling_ReportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_3_Read_Recycling_ReportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_3_Read_Recycling_ReportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_4_Exception_Handling_QuestionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_4_Exception_Handling_QuestionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_5_Add_Exception_HandlingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_5_Add_Exception_HandlingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/week_6/Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/week_6/Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1QqS5S1Qm1XkSJPhfQhJBGd1uSQ" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -203,7 +210,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/week_5" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Question_1_Write_Name_Color_Class_CodeTest.testWriteToFile">
+  <component name="RunManager" selected="Application.Question_5_Add_Exception_Handling">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -324,8 +331,8 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_7_Write_Operating_System_Info_To_File_In_Data_Directory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week_6.Question_7_Write_Operating_System_Info_To_File_In_Data_Directory" />
+    <configuration name="Question_5_Add_Exception_Handling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_6.Question_5_Add_Exception_Handling" />
       <module name="Java Autograder Lab 6" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -400,7 +407,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Question_3_Read_Recycling_ReportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Question_2_Write_Recycling_ReportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java Autograder Lab 6" />
       <extension name="coverage">
         <pattern>
@@ -409,7 +416,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week_6" />
-      <option name="MAIN_CLASS_NAME" value="week_6.Question_3_Read_Recycling_ReportTest" />
+      <option name="MAIN_CLASS_NAME" value="week_6.Question_2_Write_Recycling_ReportTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -529,22 +536,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Question_7_Write_Operating_System_Info_To_File_In_Data_Directory" />
-      <item itemvalue="JUnit.Question_3_Read_Recycling_ReportTest" />
+      <item itemvalue="Application.Question_5_Add_Exception_Handling" />
       <item itemvalue="JUnit.Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest" />
       <item itemvalue="JUnit.week_6 in Java Autograder Lab 6" />
       <item itemvalue="JUnit.Question_1_Write_Name_Color_Class_CodeTest.testWriteToFile" />
+      <item itemvalue="JUnit.Question_2_Write_Recycling_ReportTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Question_5_Add_Exception_Handling" />
+        <item itemvalue="JUnit.Question_2_Write_Recycling_ReportTest" />
         <item itemvalue="JUnit.Question_1_Write_Name_Color_Class_CodeTest.testWriteToFile" />
         <item itemvalue="JUnit.week_6 in Java Autograder Lab 6" />
         <item itemvalue="JUnit.Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest" />
-        <item itemvalue="Application.Question_7_Write_Operating_System_Info_To_File_In_Data_Directory" />
-        <item itemvalue="JUnit.Question_3_Read_Recycling_ReportTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -581,14 +589,10 @@
       <workItem from="1568520386478" duration="769000" />
       <workItem from="1568826426865" duration="539000" />
       <workItem from="1569344692498" duration="409000" />
-      <workItem from="1601564550373" duration="1527000" />
-    </task>
-    <task id="LOCAL-00007" summary="Q5 underway">
-      <created>1501797722091</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1501797722091</updated>
+      <workItem from="1601564550373" duration="1621000" />
+      <workItem from="1601581102822" duration="28000" />
+      <workItem from="1602603211741" duration="3050000" />
+      <workItem from="1607049469978" duration="56000" />
     </task>
     <task id="LOCAL-00008" summary="Q5">
       <created>1501798129999</created>
@@ -926,7 +930,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569344761614</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Cleanup">
+      <created>1601566189819</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1601566189820</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView">
@@ -939,7 +950,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
@@ -967,7 +978,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Fix tests for windows" />
     <MESSAGE value="Examples for word count" />
     <MESSAGE value="Minor typos in the instructions" />
     <MESSAGE value="Clarify  what the tests are looking for in q7 Instructions" />
@@ -992,9 +1002,30 @@
     <MESSAGE value="ensure test directory does exist" />
     <MESSAGE value="test directory and placeholder file" />
     <MESSAGE value="fix package name" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix package name" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1392" height="122" key="GridCell.Tab.0.bottom" timestamp="1602683074137">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="122" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602683074137" />
+    <state width="1392" height="122" key="GridCell.Tab.0.center" timestamp="1602683074136">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="122" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602683074136" />
+    <state width="1392" height="122" key="GridCell.Tab.0.left" timestamp="1602683074136">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="122" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602683074136" />
+    <state width="1392" height="122" key="GridCell.Tab.0.right" timestamp="1602683074137">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1392" height="122" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602683074137" />
+    <state x="409" y="201" key="Vcs.Push.Dialog.v2" timestamp="1601566191643">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="409" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601566191643" />
     <state x="559" y="215" width="626" height="490" key="find.popup" timestamp="1601565427487">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

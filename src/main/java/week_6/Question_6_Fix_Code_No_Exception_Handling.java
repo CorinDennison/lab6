@@ -78,6 +78,8 @@ public class Question_6_Fix_Code_No_Exception_Handling {
         // TODO this code throws a NullPointerException if the String sentence is null.
         // Add code to test if the String is null before splitting it.
         // Return 0 if the String is null.
+
+        // can you write an if statement here?
         
         String[] words = sentence.split(" ");
         return words.length;

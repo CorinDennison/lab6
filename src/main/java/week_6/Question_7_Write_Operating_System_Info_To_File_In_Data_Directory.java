@@ -35,7 +35,7 @@ package week_6;
  `os.txt` and should contain your computer's operating system name.
 
  Linux, Max, and Unix-based computers use / to separate path components, e.g. /Bob/Documents/homework1.doc
- Windows uses backslashes \ to separate path components, e.g. \Bob\Documents\homework1.doc
+ Windows uses backslashes \ to separate path components, e.g. C:\Bob\Documents\homework1.doc
 
  FileWriter can take a filename or path as an argument. The filename be a file in your current directory.
  So these may work on one computer, but error on another:
@@ -101,7 +101,9 @@ public class Question_7_Write_Operating_System_Info_To_File_In_Data_Directory {
         
         // TODO write the name of the operating system running this code to a file
         //  in the data directory called os.txt
-        
+
+        // Hint: https://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html
+
         // The file has to be written in the data directory of this project
         // Use System Properties to get the operating system name.
         // Remember this exact same code needs to work on a Mac/Linux and Windows computer without any modifications.

@@ -40,9 +40,11 @@ House 6 recycled 2 crates
 House 7 recycled 1 crate
 Total crates recycled: 15
  
- Add try-catch blocks for IOException in the writeReport method.  The try-with-resources version is recommended.
+ Add try-catch blocks for IOException in the writeReport method.
+ The try-with-resources version is recommended.
 
  */
+
 public class Question_2_Write_Recycling_Report {
     
     
@@ -76,43 +78,46 @@ public class Question_2_Write_Recycling_Report {
         // this method should work for any value of the houses variable.
     
         // TODO ask user for input in this method.
-        
+
         return null;  // TODO delete and replace with your code
     }
     
     
-    //Add up all of the numbers in the array and return that
     public int calculateTotal(int[] cratesPerHouse) {
         // TODO calculate and return the total.
-        // this method should work for any length cratesPerHouse array.
+        //  Add up all of the numbers in the array and return the total.
+        //  This method should work for any length cratesPerHouse array.
         
         return 0;  // TODO delete and replace with your code
     }
     
     
-    //Which is the largest number in the array?
     public int calculateMax(int[] cratesPerHouse) {
-        // TODO identify the largest number in the array. Comment your code
+        // TODO identify the largest number in the array.
         // this method should work for any length cratesPerHouse array.
-    
+        // TODO remember to write comments in code
+        //   make sure you understand all of your code - add comments to help me know you do
+        //   if you copy or adapt code from any other source, you MUST add a note with the source
         return 0; // TODO delete and replace with your code
     }
     
     
-    //Which is the smallest number in the array?
     public int calculateMin(int[] cratesPerHouse) {
-        // TODO identify the smallest number in the array. Comment your code.
-        // this method should work for any length cratesPerHouse array.
+        // TODO identify the smallest number in the array.
+        //  this method should work for any length cratesPerHouse array.
     
         return 0; // TODO delete and replace with your code
     }
     
     
-    //Use the array to figure out which house number - or array element number - has the most recycling
     public int calculateHouseWithMostRecycling(int[] cratesPerHouse) {
+        // TODO work with the cratesPerHouse array to figure out which house number
+        //   or array element number - has the most recycling
+
         // TODO which house had the most recycling? If more than one house
         //  has the max number, return either house number.
         //  this method should work for any length cratesPerHouse array.
+        //
         // Example: if cratesPerHouse is { 1, 0, 3, 0, 2 } the max is 3, and the largest value
         // is in position 2 of the array. So this method should return 2.
     
@@ -139,7 +144,5 @@ public class Question_2_Write_Recycling_Report {
         The grader is looking for this exact format.
  
         */
-        
-        
     }
 }
