@@ -23,13 +23,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="973dfb87-52db-448c-966c-e7a5a696eb0a" name="Default" comment="fix package name">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_3_2_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_CR2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_easymock_2_0_0_beta_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_api_support_2_0_0_beta_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_core_2_0_0_beta_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_2_0_0_beta_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_module_junit4_common_2_0_0_beta_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_powermock_powermock_reflect_2_0_0_beta_5.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_1_Write_Name_Color_Class_Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_1_Write_Name_Color_Class_Code.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_2_Write_Recycling_Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_2_Write_Recycling_Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_3_Read_Recycling_Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_3_Read_Recycling_Report.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_5_Add_Exception_Handling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_5_Add_Exception_Handling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_6_Fix_Code_No_Exception_Handling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_6_Fix_Code_No_Exception_Handling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/week_6/Question_7_Write_Operating_System_Info_To_File_In_Data_Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/week_6/Question_7_Write_Operating_System_Info_To_File_In_Data_Directory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java Autograder Lab 6.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java Autograder Lab 6.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +184,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="options.lastSelected" value="configurable.group.tools" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -210,7 +217,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/week_5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Question_5_Add_Exception_Handling">
+  <component name="RunManager" selected="JUnit.Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -345,6 +352,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Question_7_Write_Operating_System_Info_To_File_In_Data_Directory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week_6.Question_7_Write_Operating_System_Info_To_File_In_Data_Directory" />
+      <module name="Java Autograder Lab 6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week_6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -390,23 +411,6 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method v="2" />
     </configuration>
-    <configuration name="Question_1_Write_Name_Color_Class_CodeTest.testWriteToFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Java Autograder Lab 6" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week_6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="week_6" />
-      <option name="MAIN_CLASS_NAME" value="week_6.Question_1_Write_Name_Color_Class_CodeTest" />
-      <option name="METHOD_NAME" value="testWriteToFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Question_2_Write_Recycling_ReportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java Autograder Lab 6" />
       <extension name="coverage">
@@ -439,14 +443,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="week_6 in Java Autograder Lab 6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest.writeOSName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java Autograder Lab 6" />
       <extension name="coverage">
         <pattern>
@@ -455,7 +452,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="week_6" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="week_6.Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest" />
+      <option name="METHOD_NAME" value="writeOSName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -538,17 +544,17 @@
     <list>
       <item itemvalue="Application.Question_5_Add_Exception_Handling" />
       <item itemvalue="JUnit.Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest" />
-      <item itemvalue="JUnit.week_6 in Java Autograder Lab 6" />
-      <item itemvalue="JUnit.Question_1_Write_Name_Color_Class_CodeTest.testWriteToFile" />
       <item itemvalue="JUnit.Question_2_Write_Recycling_ReportTest" />
+      <item itemvalue="JUnit.Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest.writeOSName" />
+      <item itemvalue="Application.Question_7_Write_Operating_System_Info_To_File_In_Data_Directory" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest" />
+        <item itemvalue="Application.Question_7_Write_Operating_System_Info_To_File_In_Data_Directory" />
+        <item itemvalue="JUnit.Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest.writeOSName" />
         <item itemvalue="Application.Question_5_Add_Exception_Handling" />
         <item itemvalue="JUnit.Question_2_Write_Recycling_ReportTest" />
-        <item itemvalue="JUnit.Question_1_Write_Name_Color_Class_CodeTest.testWriteToFile" />
-        <item itemvalue="JUnit.week_6 in Java Autograder Lab 6" />
-        <item itemvalue="JUnit.Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -592,35 +598,8 @@
       <workItem from="1601564550373" duration="1621000" />
       <workItem from="1601581102822" duration="28000" />
       <workItem from="1602603211741" duration="3050000" />
-      <workItem from="1607049469978" duration="56000" />
-    </task>
-    <task id="LOCAL-00008" summary="Q5">
-      <created>1501798129999</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1501798129999</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Q6">
-      <created>1501798808610</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1501798808610</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Q8 and all done">
-      <created>1501818387560</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1501818387560</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Q8 and all done">
-      <created>1501818706604</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1501818706604</updated>
+      <workItem from="1607049469978" duration="474000" />
+      <workItem from="1607050220675" duration="755000" />
     </task>
     <task id="LOCAL-00012" summary="Q8 and all done">
       <created>1501818936155</created>
@@ -937,7 +916,35 @@
       <option name="project" value="LOCAL" />
       <updated>1601566189820</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="clarify some instructions, add hint for q6">
+      <created>1607049851799</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1607049851800</updated>
+    </task>
+    <task id="LOCAL-00058" summary="update powermock">
+      <created>1607049908299</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1607049908299</updated>
+    </task>
+    <task id="LOCAL-00059" summary="update powermock, java 14">
+      <created>1607049929418</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1607049929418</updated>
+    </task>
+    <task id="LOCAL-00060" summary="cleanup">
+      <created>1607050719093</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1607050719094</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TodoView">
@@ -954,6 +961,7 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.gitignore" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.txt" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -978,10 +986,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Examples for word count" />
-    <MESSAGE value="Minor typos in the instructions" />
-    <MESSAGE value="Clarify  what the tests are looking for in q7 Instructions" />
-    <MESSAGE value="Fix ; vs : in drink test" />
     <MESSAGE value="Specify write in same order" />
     <MESSAGE value="fix test check math" />
     <MESSAGE value="Word count notes" />
@@ -1003,29 +1007,33 @@
     <MESSAGE value="test directory and placeholder file" />
     <MESSAGE value="fix package name" />
     <MESSAGE value="Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+    <MESSAGE value="clarify some instructions, add hint for q6" />
+    <MESSAGE value="update powermock" />
+    <MESSAGE value="update powermock, java 14" />
+    <MESSAGE value="cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1392" height="122" key="GridCell.Tab.0.bottom" timestamp="1602683074137">
+    <state width="1360" height="185" key="GridCell.Tab.0.bottom" timestamp="1607050574165">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="122" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1602683074137" />
-    <state width="1392" height="122" key="GridCell.Tab.0.center" timestamp="1602683074136">
+    <state width="1360" height="185" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607050574165" />
+    <state width="1360" height="185" key="GridCell.Tab.0.center" timestamp="1607050574165">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="122" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1602683074136" />
-    <state width="1392" height="122" key="GridCell.Tab.0.left" timestamp="1602683074136">
+    <state width="1360" height="185" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607050574165" />
+    <state width="1360" height="185" key="GridCell.Tab.0.left" timestamp="1607050574164">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="122" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1602683074136" />
-    <state width="1392" height="122" key="GridCell.Tab.0.right" timestamp="1602683074137">
+    <state width="1360" height="185" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607050574164" />
+    <state width="1360" height="185" key="GridCell.Tab.0.right" timestamp="1607050574165">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1392" height="122" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1602683074137" />
-    <state x="409" y="201" key="Vcs.Push.Dialog.v2" timestamp="1601566191643">
+    <state width="1360" height="185" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607050574165" />
+    <state x="409" y="201" key="Vcs.Push.Dialog.v2" timestamp="1607050720814">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="409" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601566191643" />
+    <state x="409" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607050720814" />
     <state x="559" y="215" width="626" height="490" key="find.popup" timestamp="1601565427487">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
