@@ -164,10 +164,10 @@ these files into an images directory, and a data directory.
 For this question, write a program that creates and stores a file in the data directory. The file should be called
 `os.txt` and should contain your computer's operating system name.
 
-Linux, Max, and Unix-based computers use / to separate path components, e.g. /Bob/Documents/homework1.doc
+Linux, Max, and Unix-based computers use / to separate file components, e.g. /Bob/Documents/homework1.doc
  Windows uses backslashes \ to separate path components, e.g. \Bob\Documents\homework1.doc
 
- FileWriter can take a filename or path as an argument. The filename be a file in your current directory.
+ FileWriter can take a filename or path as an argument. If a filename is provided, it's assumed to be in the current working directory.
  So these may work on one computer, but error on another:
  
  new FileWriter fw = new FileWriter(“data/testing.txt”);   // Mac and Linux ok, PC Error
@@ -176,11 +176,11 @@ Linux, Max, and Unix-based computers use / to separate path components, e.g. /Bo
  FileWriter can also take a File object as an argument, and a File object can store a path to a file
  elsewhere on your system (or even on a remote system).
 
- Here’s one way to create a File object on a Mac, Linux, Unix etc. system; using / as a path separator, for example,
+ Here’s one way to create a File object on a Mac, Linux, Unix etc. system; using / as a file separator, for example,
  
  File f = new File(“mydirectory/mysubdirectory/textfile.txt”);   // But error on PC
  
- Or on a PC, which uses backslash as the path separator, for example,
+ Or on a PC, which uses backslash as the file separator, for example,
  
  File f = new File(“mydirectory\mysubdirectory\textfile.txt”);   // But error on Mac and Linux
 
@@ -198,9 +198,9 @@ as we work with files.
 
 There's two ways to handle this.
 
-1. Java code can get information about the system it running on - system properties - which include the file path
+1. Java code can get information about the system it running on - system properties - which include the file
 separator for the current system, the name and version of the operating system, and various others. You can get the
-path separator and use it to build the file path String.
+file separator and use it to build the file path String.
 
 2. Or, a cleaner approach: create a File object with the File(parentDirectory, filename) constructor. For example,
 
@@ -215,5 +215,5 @@ Note: In general, it is possible, but **not recommended**, to use absolute path 
 C:\program files\java\textfile.txt on Windows, or
 /users/admin/Documents/textfile.txt on a Unix-based system like Linux or Mac.
 
-but if you do that, your program will almost certainly not work on anyone else's computer.
+But if you do that, your program will almost certainly not work on anyone else's computer.
 And, the tests will fail when the grader runs them.

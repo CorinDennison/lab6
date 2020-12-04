@@ -34,25 +34,25 @@ package week_6;
  For this question, write a program that creates and stores a file in the data directory. The file should be called
  `os.txt` and should contain your computer's operating system name.
 
- Linux, Max, and Unix-based computers use / to separate path components, e.g. /Bob/Documents/homework1.doc
- Windows uses backslashes \ to separate path components, e.g. C:\Bob\Documents\homework1.doc
+ Linux, Max, and Unix-based computers use / to separate file path components, e.g. /Bob/Documents/homework1.doc
+ Windows uses backslashes \ to separate file path components, e.g. C:\Bob\Documents\homework1.doc
 
- FileWriter can take a filename or path as an argument. The filename be a file in your current directory.
+ FileWriter can take a filename or path as an argument. A filename is assumed to be in the current working directory.
  So these may work on one computer, but error on another:
  
- new FileWriter fw = new FileWriter(“data/testing.txt”);   // Mac and Linux ok, PC Error
- new FileWriter fw = new FileWriter(“data\testing.txt”);   // Windows OK, Mac and Linux Error
+ new FileWriter fw = new FileWriter("data/testing.txt");   // Mac and Linux ok, PC may Error
+ new FileWriter fw = new FileWriter("data\testing.txt");   // Windows OK, Mac and Linux Error
  
  FileWriter can also take a File object as an argument, and a File object can store a path to a file
  elsewhere on your system (or even on a remote system).
 
- Here’s one way to create a File object on a Mac, Linux, Unix etc. system; using / as a path separator, for example,
+ Here’s one way to create a File object on a Mac, Linux, Unix etc. system; using / as a file path separator, for example,
  
- File f = new File(“mydirectory/mysubdirectory/textfile.txt”);   // But error on PC
+ File f = new File("mydirectory/mysubdirectory/textfile.txt");   // But may error on PC
  
  Or on a PC, which uses backslash as the path separator, for example,
  
- File f = new File(“mydirectory\mysubdirectory\textfile.txt”);   // But error on Mac and Linux
+ File f = new File("mydirectory\mysubdirectory\textfile.txt");   // But error on Mac and Linux
  
  Assuming these directories exist, you can create and write `textfile.txt` file in this location.  The location
  is relative to the root directory of your project.
@@ -68,9 +68,9 @@ package week_6;
  
  There's two ways to handle this.
  
- 1. Java code can get information about the system it running on - system properties - which include the file path
+ 1. Java code can get information about the system it running on - system properties - which include the file
  separator for the current system, the name and version of the operating system, and various others. You can get the
- path separator and use it to build the file path String.
+ file separator and use it to build the file path String.
  
  2. Or, a cleaner approach: create a File object with the File(parentDirectory, filename) constructor. For example,
  
@@ -78,7 +78,8 @@ package week_6;
  
  Java will check the system properties for you, and construct the correct path for the computer.
  
- For more information, see the Java File documentation. https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/io/File.html
+ For more information, see the Java File documentation.
+ https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/io/File.html
  
  Note: In general, it is possible, but **not recommended**, to use absolute path names, for example
  
