@@ -93,11 +93,10 @@ package week_6;
 public class Question_7_Write_Operating_System_Info_To_File_In_Data_Directory {
     
     public static void main(String[] args) {
-        Question_7_Write_Operating_System_Info_To_File_In_Data_Directory q8 = new Question_7_Write_Operating_System_Info_To_File_In_Data_Directory();
-        q8.writeOSName();
+        writeOSName();
     }
     
-    public void writeOSName() {
+    public static void writeOSName() {
         
         // TODO write the name of the operating system running this code to a file
         //  in the data directory called os.txt

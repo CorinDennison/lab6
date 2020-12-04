@@ -36,11 +36,9 @@ public class Question_6_Fix_Code_No_Exception_HandlingTest {
                     out.contains("C#PythonJavaScript"));
             
         } catch (NoSuchElementException e) {
-            
             // Ensure code does not crash
             fail("Check if the languages LinkedList is empty before removing elements from it");
         }
-        
     }
     
     

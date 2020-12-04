@@ -1,28 +1,22 @@
 package week_6;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import java.io.*;
 import java.lang.reflect.Method;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.Arrays;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by clara on 8/3/17.
- */
+
 public class Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTest {
-    
 
     @Test(timeout=3000)
     public void writeOSName()  {
         
-        Question_7_Write_Operating_System_Info_To_File_In_Data_Directory q7 = new Question_7_Write_Operating_System_Info_To_File_In_Data_Directory()  ;
-        
-        q7.writeOSName();
+
+        Question_7_Write_Operating_System_Info_To_File_In_Data_Directory.writeOSName();
         
         // Read file, verify contains correct OS name
         
@@ -31,14 +25,12 @@ public class Question_7_Write_Operating_System_Info_To_File_In_Data_DirectoryTes
             String fileContents = new String(bytes);
             String osName = System.getProperty("os.name");
             
-            assertTrue("Write the operating system name to the file os.txt in the data directory.",
+            assertTrue("Write the operating system name ("+ osName +") to the file os.txt in the data directory.",
                     fileContents.contains(osName));
-            
-        } catch (FileNotFoundException f) {
-            fail("os.txt File not found. Make sure your code creates a file called " +
-                    "os.txt in the data directory of this project");
+
         } catch (IOException ioe) {
-            fail("Error reading os.txt file. " + ioe.getMessage());
+            fail("Error reading os.txt file. Make sure your code creates a file called os.txt \n" +
+                    "in the data directory of this project\" " + ioe.getMessage());
         }
         
     }
