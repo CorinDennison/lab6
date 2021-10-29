@@ -50,12 +50,12 @@ package week_6;
  
  File f = new File("mydirectory/mysubdirectory/textfile.txt");   // But may error on PC
  
- Or on a PC, which uses backslash as the path separator, for example,
+ Or on a PC, which uses backslash as the file separator, for example,
  
  File f = new File("mydirectory\mysubdirectory\textfile.txt");   // But error on Mac and Linux
  
- Assuming these directories exist, you can create and write `textfile.txt` file in this location.  The location
- is relative to the root directory of your project.
+ Assuming these directories exist, you can create and write `textfile.txt` file in this location.
+ The location is relative to the root directory of your project.
  
  But, there's a problem. If you write a forward slash, or backslash, your program will work fine on one system, but
  crash on the other.
@@ -68,9 +68,9 @@ package week_6;
  
  There's two ways to handle this.
  
- 1. Java code can get information about the system it running on - system properties - which include the file
- separator for the current system, the name and version of the operating system, and various others. You can get the
- file separator and use it to build the file path String.
+ 1. Java code can get information about the system it running on - system properties - which include the
+ file separator for the current system, the name and version of the operating system, and various others.
+ You can get the file separator property and use it to build the file path String.
  
  2. Or, a cleaner approach: create a File object with the File(parentDirectory, filename) constructor. For example,
  
