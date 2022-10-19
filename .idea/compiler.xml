@@ -16,12 +16,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Java Autograder Lab 6" />
+        <module name="Java Autograder 6" />
         <module name="Java_Auto_Grader_5_6_7" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="Java Autograder Lab 6" target="16" />
+      <module name="Java Autograder 6" target="15" />
       <module name="Java_Auto_Grader_5_6_7" target="1.8" />
     </bytecodeTargetLevel>
   </component>
