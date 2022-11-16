@@ -33,7 +33,7 @@ public class Question_5_Add_Exception_HandlingTest {
         
             q5.printLanguageList();
         
-            String out = PrintUtils.resetStandardOut();   // And save it, to chck the program still prints the same data
+            String out = PrintUtils.resetStandardOut();   // And save it, to check the program still prints the same data
     
             out = out.replace("\n", "");
             out = out.replace("\r", "");
@@ -87,7 +87,8 @@ public class Question_5_Add_Exception_HandlingTest {
         
         String pattern = "[\\S\\s]*catch.*\\(\\s*NoSuchElementException[\\S\\s]*";
         
-        assertTrue("Add try-catch statements inside the printLanguageList method to catch the exception being thrown",
+        assertTrue("Add try-catch statements inside the printLanguageList method to catch the exception being thrown.\n" +
+                        "Catch the specific exception that is thrown.",
                 allCode.matches(pattern));
     }
     
@@ -149,7 +150,8 @@ public class Question_5_Add_Exception_HandlingTest {
         
         String pattern = "[\\S\\s]*catch.*\\(\\s*NullPointerException[\\S\\s]*";
         
-        assertTrue("Add try-catch statements inside the wordCount method to catch the exception being thrown",
+        assertTrue("Add try-catch statements inside the wordCount method to catch the exception being thrown.\n" +
+                        "Catch the specific exception that is thrown.",
                 allCode.matches(pattern));
         
         
