@@ -94,10 +94,13 @@ public class Question_2_Write_Recycling_Report {
     
     public int calculateMax(int[] cratesPerHouse) {
         // TODO identify the largest number in the array.
-        // this method should work for any length cratesPerHouse array.
+        //   this method should work for any length cratesPerHouse array.
+        //   You can assume that the cratesPerHouse array contains at least one number.
+
         // TODO remember to write comments in code
         //   make sure you understand all of your code - add comments to help me know you do
         //   if you copy or adapt code from any other source, you MUST add a note with the source
+
         return 0; // TODO delete and replace with your code
     }
     
@@ -105,14 +108,21 @@ public class Question_2_Write_Recycling_Report {
     public int calculateMin(int[] cratesPerHouse) {
         // TODO identify the smallest number in the array.
         //  this method should work for any length cratesPerHouse array.
-    
+        //   You can assume that the cratesPerHouse array contains at least one number.
+
+        // TODO remember to write comments in code
+        //   make sure you understand all of your code - add comments to help me know you do
+        //   if you copy or adapt code from any other source, you MUST add a note with the source
+
+
         return 0; // TODO delete and replace with your code
     }
     
     
     public int calculateHouseWithMostRecycling(int[] cratesPerHouse) {
         // TODO work with the cratesPerHouse array to figure out which house number
-        //   or array element number - has the most recycling
+        //   or array element number - has the most recycling.
+        //   You can assume that the cratesPerHouse array contains at least one number.
 
         // TODO which house had the most recycling? If more than one house
         //  has the max number, return either house number.
