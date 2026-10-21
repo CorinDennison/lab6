@@ -8,7 +8,7 @@ package week_6;
  Write the name of the operating system that's running this code, to a file
  called `os.txt`. os.txt should be saved in the `data` directory of this project.
  
- You can get find out how to get the name of your operating system by reading
+ You can find out how to get the name of your operating system by reading
  http://docs.oracle.com/javase/tutorial/essential/environment/sysprop.html
  
  The /data/ directory has been created for you in the root directory of this project.
